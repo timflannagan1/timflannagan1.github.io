@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Simple Sample Title</title>
+		<title>{{ page.title }}</title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
@@ -10,18 +10,17 @@
         		<li><a href="/">Home</a></li>
 	        	<li><a href="/about">About</a></li>
         		<li><a href="/resume">Resume</a></li>
-        		<li><a href="/projects">Projects</a></li>
+        		<li><a href="/blog">Blog</a></li>
     		</ul>
 		</nav>
 		<div class="container">
-    		<div class="blurb">
-        		<h1>Header Stub!</h1>
-				<p>Testing paragraph</p>
-    		</div><!-- /.blurb -->
+
+    {{ content }}
+
 		</div><!-- /.container -->
 		<footer>
     		<ul>
-        		<li><a href="timothy_flannagan@student.uml">email</a></li>
+        		<li><a href="mailto:timothy_flannagan@student.uml">email</a></li>
         		<li><a href="https://github.com/timflannagan1">github.com/timflannagan1</a></li>
 			</ul>
 		</footer>
