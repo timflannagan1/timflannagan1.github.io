@@ -1,5 +1,5 @@
 ### To-Do:
-- [ ]. Update HTML structure
-- [ ]. Add multiple pages
-- [ ]. Add CSS
-- [ ]. Add vanilla JS
+- [ ] Update HTML structure
+- [ ] Add multiple pages
+- [ ] Add CSS
+- [ ] Add vanilla JS
